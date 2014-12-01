@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BackupTool</string>
+    <string name="ftp_addr">FTP Address</string>
+    <string name="ftp_username">FTP UserName</string>
+    <string name="ftp_password">FTP Password</string>
+    <string name="ftp_upload_path">FTP Upload Path</string>
+    <string name="backup_period">Backup Period(min)</string>
+	<string name="timeout">SR Pause Timeout(min)</string>
+	<string name="setting_start">Start</string>
+	<string name="setting_stop">Stop</string>
+	<string name="setting_about">About</string>
+</resources>

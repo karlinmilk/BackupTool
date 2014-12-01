@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <EditTextPreference
+	    	android:key="edit_ftp_addr"
+	    	android:title="@string/ftp_addr"
+	    	android:inputType="textUri"
+	    	android:singleLine="true"
+	    />
+    <EditTextPreference
+	    	android:key="edit_ftp_username"
+	    	android:title="@string/ftp_username"
+	    	android:inputType="text"
+	    	android:singleLine="true"
+	    />
+    <EditTextPreference
+	    	android:key="edit_ftp_password"
+	    	android:title="@string/ftp_password"
+	    	android:inputType="textVisiblePassword"
+	    	android:singleLine="true"
+	    />
+    <EditTextPreference
+	    	android:key="edit_ftp_uploadpath"
+	    	android:title="@string/ftp_upload_path"
+	    	android:inputType="text"
+	    	android:singleLine="true"
+	    />
+    
+    <EditTextPreference
+	    	android:key="edit_backup_period"
+	    	android:title="@string/backup_period"
+	    	android:inputType="numberSigned"
+	    	android:singleLine="true"
+	    />
+    <EditTextPreference
+	    	android:key="edit_timeout"
+	    	android:title="@string/timeout"
+	    	android:inputType="numberSigned"
+	    	android:singleLine="true"
+	    />
+    
+</PreferenceScreen>
